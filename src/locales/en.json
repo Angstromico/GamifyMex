@@ -1,0 +1,18 @@
+{
+  "home": {
+    "welcome": "Welcome to the Home Page!"
+  },
+  "about": {
+    "description": "About Us"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "signup": "New account",
+    "quiz": "Quiz",
+    "logOut": "Log Out"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

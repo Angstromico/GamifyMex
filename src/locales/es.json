@@ -1,0 +1,18 @@
+{
+  "home": {
+    "welcome": "Bienvenido a la página principal!"
+  },
+  "about": {
+    "description": "Sobre nosotros"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "signup": "Nueva cuenta",
+    "quiz": "Trivia",
+    "logOut": "Salir"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}
