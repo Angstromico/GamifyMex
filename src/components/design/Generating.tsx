@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import { dynamicTranslate } from 'src/utils'
-import { loading } from '@assets/index'
-import type { Lang } from '@interfaces/index'
+import loading from '@assets/loading.png'
+import { useTranslation } from 'react-i18next'
 
 interface Props {
   classes?: string
   loadingText: string
-  lang: Lang
 }
-const Generating = ({ classes, loadingText, lang }: Props) => {
+
+const Generating = ({ classes, loadingText }: Props) => {
+  const { t } = useTranslation() // Destructure t from useTranslation
   const [inputText, setInputText] = useState('')
   const [showAlert, setShowAlert] = useState(false)
 
@@ -37,7 +37,7 @@ const Generating = ({ classes, loadingText, lang }: Props) => {
       >
         <img
           className='w-5 h-5 mr-4 animate-spin'
-          src={loading.src}
+          src={loading}
           alt={loadingText}
         />
         <input
@@ -63,12 +63,11 @@ const Generating = ({ classes, loadingText, lang }: Props) => {
           <div className='flex items-center justify-center mb-2'>
             <img
               className='w-5 h-5 mr-2 animate-spin'
-              src={loading.src}
+              src={loading}
               alt='Loading'
             />
             <span>
-              {dynamicTranslate(lang, 'Mensaje Enviado:', 'Message Sent:')}{' '}
-              {inputText}
+              {t('hero.send')} {inputText}
             </span>
           </div>
 
@@ -99,4 +98,5 @@ const Generating = ({ classes, loadingText, lang }: Props) => {
     </>
   )
 }
+
 export default Generating

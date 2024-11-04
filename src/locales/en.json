@@ -1,16 +1,38 @@
 {
-  "home": {
-    "welcome": "Welcome to the Home Page!"
-  },
-  "about": {
-    "description": "About Us"
-  },
   "nav": {
     "home": "Home",
     "about": "About",
     "signup": "New account",
     "quiz": "Quiz",
     "logOut": "Log Out"
+  },
+  "hero": {
+    "trivias": "Trivia",
+    "bingo": "Bingo",
+    "reward": "Rewards",
+    "close": "Close",
+    "send": "Message Sent:",
+    "quiz": "Welcome to The Fortnight Trivia Show! This exciting interactive competition tests your skills and knowledge, where our streamer challenges you with fun activities and easy questions that offer real-time rewards.\nClimb the leaderboard by accumulating points and aim for the fantastic fortnightly reward.\n\nTo enjoy this unique experience, all you need is a mobile phone, to be a registered member of GamifyMexico, and to tune into the live stream of The Fortnight Trivia Show from Monday to Saturday at 8 p.m. CDMX time on our social media channels.\n\nJoin, enjoy, and win multiple rewards!\n\nGet ready for new rounds of questions each week, covering various topics from general knowledge to current trends. The Fortnight is designed for everyone, from beginners to experts, and offers the chance to win real rewards for your participation.\n\nAre you ready for the challenge? Every question brings you closer to the top, and each week, more prizes are added for the best players. Don’t miss out and show us how much you know.",
+    "minibingo": "Now you can play bingo without the need to bet! Best of all, you will not only have a lot of fun but also gain multiple real-time rewards.\n\nAs a member of our GamifyMexico community, you get exclusive access to all the interactive fun we offer. With GamifyMexico's Bingo57, reaching the podium and capturing rewards is a reality.\n\nWelcome to the interactive show of real rewards!\n\nJoin thousands of players who have fun and win every day on Bingo57. Participate in special events, discover new ways to win, and become one of our champions.\n\nRemember, at GamifyMexico, every game is an opportunity to be the best. Play now and be part of the endless fun!",
+    "rewards": {
+      "exclusiveBadge": {
+        "title": "Exclusive Badge",
+        "description": "Earn a unique badge to display on your profile."
+      },
+      "leaderboardPoints": {
+        "title": "Leaderboard Points",
+        "description": "Gain extra points to climb the leaderboard."
+      },
+      "mysteryGift": {
+        "title": "Mystery Gift",
+        "description": "Unlock a surprise gift for top performance."
+      },
+      "weeklyMedal": {
+        "title": "Weekly Medal",
+        "description": "Collect medals for each successful week."
+      },
+      "availableRewards": "Available Rewards"
+    }
   },
   "footer": {
     "rights": "All rights reserved"
